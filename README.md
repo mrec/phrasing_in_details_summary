@@ -1,0 +1,1 @@
+Minimal demonstration of an issue I'm having with a CommonMark/pulldown-cmark/Zola pipeline - I can't get it to stop wrapping `<summary>` content in a `<p>`, which isn't valid for that element's content model.
