@@ -46,3 +46,11 @@ Blah blah large bowl of porridge blah blah
 ![test image](test.jpg)
 Blah blah lemon curry blah blah
 {% end %}
+
+## UPDATE! - golden Markdown solution, using ky-bean's `markdown(inline=true)` tip
+
+{% details_md_golden(summary="Summary using `code`, *emphasis*, **strong** and so on") %}
+Blah blah large bowl of porridge blah blah
+![test image](test.jpg)
+Blah blah lemon curry blah blah
+{% end %}
